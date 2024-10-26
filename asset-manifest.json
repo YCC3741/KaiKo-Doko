@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KaiKo-Doko/static/css/main.e6c13ad2.css",
+    "main.js": "/KaiKo-Doko/static/js/main.ff8db444.js",
+    "static/js/453.419a5d54.chunk.js": "/KaiKo-Doko/static/js/453.419a5d54.chunk.js",
+    "index.html": "/KaiKo-Doko/index.html",
+    "main.e6c13ad2.css.map": "/KaiKo-Doko/static/css/main.e6c13ad2.css.map",
+    "main.ff8db444.js.map": "/KaiKo-Doko/static/js/main.ff8db444.js.map",
+    "453.419a5d54.chunk.js.map": "/KaiKo-Doko/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ff8db444.js"
+  ]
+}
