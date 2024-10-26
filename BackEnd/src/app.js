@@ -45,7 +45,11 @@ app.use('/mainPic', express.static(path.join(__dirname, 'mainPic')));
 discordService.init();
 
 app.listen(PORT, () => {
-  console.log(`服務器運行在端口 ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
+});
+
+app.get('/test', (req, res) => {
+  res.json({ message: '后端部署成功！' });
 });
 
 process.on('unhandledRejection', (reason, promise) => {
