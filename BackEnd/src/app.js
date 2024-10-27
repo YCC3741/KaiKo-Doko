@@ -55,9 +55,3 @@ app.get('/test', (req, res) => {
 process.on('unhandledRejection', (reason, promise) => {
   console.error('未處理的 Promise 拒絕:', reason);
 });
-
-
-app.use((req, res) => {
-  console.log(`404 - Not Found: ${req.method} ${req.url}`);
-  res.status(404).send('Not Found');
-});
